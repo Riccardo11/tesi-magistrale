@@ -1,0 +1,55 @@
+\section{Portale Web}
+
+\subsection{Contenuto}
+Il lavoro svolto è stato inserito all'interno di un portale web. Quest'ultimo rappresenta una demo dei servizi messi a disposizione all'utente, che non si limitano al semplice sfruttamento del roboadvisor, ma consentono una visione più ampia di informazioni riguardanti il proprio \gls{portafoglio}. Le funzionalità messe a disposizione sono le seguenti:
+\begin{itemize}
+    \item \textbf{Overview}: sezione principale, in cui all'utente vengono mostrati i suoi dati personali. Inoltre viene visualizzato un grafico rappresentante lo storico del \gls{NAV} del suo portafoglio, evidenziando inoltre il \gls{Maximum Drawdown}.
+    
+    \item \textbf{Holdings/PNL}: sezione in cui un utente può vedere le security che possiede e alcune loro caratteristiche. In particolare:
+
+    \todo{Riempire le parti mancanti e il glossario}
+
+    \begin{itemize}
+        \item Security: nome della security
+        \item Asset type: asset a cui afferisce la security
+        \item Data d'acquisto: data in cui la security è stata acquistata dall'utente
+        \item \# Shares: il numero di shares della security possedute dall'utente
+        \item PNL:
+        \item Actual Market Value:
+        \item Historical Volatility:
+        \item Sharp Ratio:
+    \end{itemize}
+
+    \item \textbf{Asset Allocation}: sezione in cui si può vedere lo stato attuale del portafoglio, diviso per Asset Type, mostrato con un grafico a torta.
+
+    \item \textbf{Transactions}:
+
+    \item \textbf{Performance}: sezione contenente dettagli riguardanti il capitale investito dall'utente. In particolare:
+
+    \begin{itemize}
+        \item Beginning Value: denaro presente inizialmente all'interno dell'account
+        \item Ending Value: denaro presente attualmente all'interno dell'account
+        \item Deposit: denaro aggiunto all'account
+        \item Withdrawals: denaro tolto dall'account
+        \item Weekly Gain: guadagno nell'ultima settimana (in percentuale)
+        \item Monthly Gain: guadagno nell'ultimo mese (in percentuale)
+        \item Yearly Gain: guadagno nell'ultimo anno (in percentuale)
+    \end{itemize}
+
+    \item \textbf{Questionario}: cliccando sull'icona rappresentante un volto si accede al questionario MiFid2 \todo{citare} che l'utente può compilare, per essere classificato in un profilo di rischio. \todo{Spiegare i vari profili?} Al termine del questionario, non viene solamente fatta questa categorizzazione, bensì si fa un confronto tra l'attuale stato del portafoglio dell'utente ed il profilo trovato: se questi non coincidono, il sistema lo notifica e mostra quali operazioni sarebbe necessario applicare per avere un portafoglio coerente con il proprio profilo di rischio. Il questionario 
+
+\end{itemize}
+
+\subsection{Strumenti utilizzati}
+Essendo il portale una demo principalmente visiva, il lavoro si è concentrato sul frontend web development. Si è infatti fatto utilizzo dei classici linguaggi per questo tipo di task, in particolare HTML, CSS e JavaScript (quest'ultimo in quantità nettamente superiore agli altri due).
+
+Va inoltre fatta menzione di due librerie che fanno parte delle fondamenta del codice alla base del portale: \todo{Citare}Webpack e React.js.
+
+\begin{itemize}
+    \item \textbf{Webpack}: è un module-bundler, cioè un'applicazione che, partendo da diversi file (sorgente JavaScript, HTML, immagini ecc.) che hanno delle dipendenze tra di loro, automaticamente crea uno o più bundles, cioè dei file JavaScript contenenti i moduli che precedentemente erano separati. Webpack è uno strumento estremamente utile per scrivere codice Javascript modulare e ordinato, senza appesantire il carico di dati che il browser deve scaricare per visualizzare la pagina, poiché quest'ultimo necessiterà solo del bundle (che potrà essere a sua volta minificato, per essere reso ancora più leggero) generato da Webpack.
+
+    Webpack viene utilizzato da molte aziende per i loro siti Internet, il che ne certifica l'indubbia qualità: alcune di queste sono Trivago, Airbnb, Adobe, Slack.
+
+    \item \textbf{React.js}: è una libreria JavaScript, mantenuta da Facebook, progettata per creare interfacce utente interattive. La principale caratteristica di React è quella di spostare la scrittura di codice HTML in JavaScript, utilizzando un linguaggio molto simile (chiamato JSX), rendendo così più semplice la manipolazione di quelle che in React vengono chiamate \textit{componenti}, che poi verranno tradotte in vero codice HTML e visualizzate sul browser. Ciascuna componente ha uno stato proprio, che nel tempo può essere modificato: React fa sì che solo ciò che effettivamente necessita di cambiamento all'interno dell'interfaccia utente venga ri-renderizzato, procurando così un notevole miglioramento nelle prestazioni del sito.
+\end{itemize}
+Altre librerie sfruttate non altrettanto fondamentali, ma degne di essere menzionate, sono Chart.js, per la rappresentazione dei grafici, e React-bootstrap, un'implementazione nativa per React delle componenti bootstrap.

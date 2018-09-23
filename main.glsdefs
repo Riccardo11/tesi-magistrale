@@ -1,0 +1,180 @@
+\ifglsentryexists{portafoglio}{}%
+{%
+\gls@defglossaryentry{portafoglio}%
+{%
+name={Portafoglio},%
+sort={Portafoglio},%
+type={main},%
+first={Portafoglio},%
+firstplural={Portafoglios},%
+text={Portafoglio},%
+plural={Portafoglios},%
+description={L'insieme di investimenti compiuti da un ente},%
+descriptionplural={L'insieme di investimenti compiuti da un ente},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NAV}{}%
+{%
+\gls@defglossaryentry{NAV}%
+{%
+name={NAV},%
+sort={NAV},%
+type={main},%
+first={NAV},%
+firstplural={NAVs},%
+text={NAV},%
+plural={NAVs},%
+description={Indice di valutazione del rendimento di un portafoglio. Calcolato {\textbf {Mettere Formula!!!!!!!!!!}}},%
+descriptionplural={Indice di valutazione del rendimento di un portafoglio. Calcolato {\textbf {Mettere Formula!!!!!!!!!!}}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Maximum Drawdown}{}%
+{%
+\gls@defglossaryentry{Maximum Drawdown}%
+{%
+name={Maximum Drawdown},%
+sort={Maximum Drawdown},%
+type={main},%
+first={Maximum Drawdown},%
+firstplural={Maximum Drawdowns},%
+text={Maximum Drawdown},%
+plural={Maximum Drawdowns},%
+description={Indice che identifica il peggior calo in percentuale in una serie storica. Il Maximum Drawdown al tempo $T$ di una serie $X$ viene calcolato come segue: \begin {equation*} MDD(T) = \max _{\tau \in (0,T)}{[ \max _{t \in (0,\tau )} {X(t) - X(\tau )}] } \end {equation*}},%
+descriptionplural={Indice che identifica il peggior calo in percentuale in una serie storica. Il Maximum Drawdown al tempo $T$ di una serie $X$ viene calcolato come segue: \begin {equation*} MDD(T) = \max _{\tau \in (0,T)}{[ \max _{t \in (0,\tau )} {X(t) - X(\tau )}] } \end {equation*}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Security}{}%
+{%
+\gls@defglossaryentry{Security}%
+{%
+name={Security},%
+sort={Security},%
+type={main},%
+first={Security},%
+firstplural={Securitys},%
+text={Security},%
+plural={Securitys},%
+description={},%
+descriptionplural={},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Asset}{}%
+{%
+\gls@defglossaryentry{Asset}%
+{%
+name={Asset},%
+sort={Asset},%
+type={main},%
+first={Asset},%
+firstplural={Assets},%
+text={Asset},%
+plural={Assets},%
+description={},%
+descriptionplural={},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Mifid2}{}%
+{%
+\gls@defglossaryentry{Mifid2}%
+{%
+name={Mifid2},%
+sort={Mifid2},%
+type={main},%
+first={Mifid2},%
+firstplural={Mifid2s},%
+text={Mifid2},%
+plural={Mifid2s},%
+description={},%
+descriptionplural={},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

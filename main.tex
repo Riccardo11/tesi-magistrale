@@ -1,0 +1,35 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{glossaries}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{enumitem}
+% \usepackage{appendix}
+
+\title{Tesi Magistrale}
+\author{Riccardo Minato}
+\date{}
+
+\makeglossaries
+
+\def \E {\uppercase{è }}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+% \glsaddall
+\printglossary
+
+
+\input{text/glossary.tex}
+
+\section{Introduzione}
+
+\input{text/sito.tex}
+
+\input{text/mifid.tex}
+
+\end{document}
