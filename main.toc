@@ -1,7 +1,11 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {section}{\numberline {1}Introduzione}{1}
-\contentsline {section}{\numberline {2}Portale Web}{1}
-\contentsline {subsection}{\numberline {2.1}Contenuto}{1}
-\contentsline {subsection}{\numberline {2.2}Strumenti utilizzati}{3}
-\contentsline {section}{\numberline {A}Questionario MiFid2}{3}
+\contentsline {section}{\numberline {1}Introduzione}{2}
+\contentsline {section}{\numberline {2}Machine Learning}{2}
+\contentsline {subsection}{\numberline {2.1}Recurrent Neural Networks}{2}
+\contentsline {subsubsection}{\numberline {2.1.1}Introduzione alle RNN}{2}
+\contentsline {subsubsection}{\numberline {2.1.2}Struttura e funzionamento della RNN}{2}
+\contentsline {section}{\numberline {3}Portale Web}{4}
+\contentsline {subsection}{\numberline {3.1}Contenuto}{4}
+\contentsline {subsection}{\numberline {3.2}Strumenti utilizzati}{5}
+\contentsline {section}{\numberline {A}Questionario MiFid2}{6}

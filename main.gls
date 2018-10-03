@@ -2,11 +2,11 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossentry{Maximum Drawdown}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{3}}}\glsgroupskip
 \glsgroupheading{N}\relax \glsresetentrylist %
 \glossentry{NAV}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{3}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossentry{portafoglio}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1}}}%
+		\setentrycounter[]{page}\glsnumberformat{3}}}%
 \end{theglossary}\glossarypostamble

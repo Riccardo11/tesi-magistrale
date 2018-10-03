@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.29)  23 SEP 2018 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.29)  3 OCT 2018 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -930,24 +930,24 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \glo@main@file=\write5
 \openout5 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 15.
+Package glossaries Info: Writing glossary file main.glo on input line 16.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Info: Redefining \it@ocap on input line 19.
-LaTeX Info: Redefining \it@ccap on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Info: Redefining \it@ocap on input line 20.
+LaTeX Info: Redefining \it@ccap on input line 20.
 
 
 File italian.ldf warning: 
@@ -955,7 +955,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 19.
+italian.ldf    on input line 20.
 
 (./main.glsdefs) (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1027,50 +1027,67 @@ e
 \@gls@deffile=\write7
 \openout7 = `main.glsdefs'.
 
-) (./text/sito.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
+) (./text/ml.tex [1
+
+\openout4 = `main.ist'.
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
- [1
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
+ [2] [3]
+<pictures/Recurrent_neural_network_unfold.png, id=29, 1204.5pt x 401.5pt>
+File: pictures/Recurrent_neural_network_unfold.png Graphic file (type png)
 
-\openout4 = `main.ist'.
+<use pictures/Recurrent_neural_network_unfold.png>
+Package pdftex.def Info: pictures/Recurrent_neural_network_unfold.png used on i
+nput line 69.
+(pdftex.def)             Requested size: 426.801pt x 142.26378pt.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (81.801pt too wide) in paragraph at lines 69--70
+ [][] 
+ []
 
-LaTeX Warning: Marginpar on page 2 moved.
+) (./text/sito.tex [4 <./pictures/Recurrent_neural_network_unfold.png>]
 
-[2]) (./text/mifid.tex [3] [4] [5] [6] [7]) [8] (./main.aux)
+LaTeX Warning: Marginpar on page 5 moved.
+
+[5]) (./text/mifid.tex [6] [7] [8] [9] [10]) [11] (./main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 17967 strings out of 493029
- 333115 string characters out of 6136234
- 451110 words of memory out of 5000000
- 21097 multiletter control sequences out of 15000+600000
+ 17982 strings out of 493029
+ 333439 string characters out of 6136234
+ 451112 words of memory out of 5000000
+ 21106 multiletter control sequences out of 15000+600000
  9369 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,76p,1937b,1116s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,10n,76p,1937b,1116s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i10.pfb>
-Output written on main.pdf (8 pages, 136388 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (11 pages, 221562 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
