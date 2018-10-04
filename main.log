@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.29)  3 OCT 2018 23:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.29)  4 OCT 2018 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -964,7 +964,7 @@ italian.ldf    on input line 20.
 \scratchbox=\box45
 \nofMPsegments=\count157
 \nofMParguments=\count158
-\everyMPshowfont=\toks46
+\toks46
 \MPscratchCnt=\count159
 \MPscratchDim=\dimen177
 \MPnumerator=\count160
@@ -1023,7 +1023,9 @@ e
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- (./main.gls) (./text/glossary.tex
+
+No file main.gls.
+(./text/glossary.tex
 \@gls@deffile=\write7
 \openout7 = `main.glsdefs'.
 
@@ -1033,46 +1035,60 @@ e
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
- [2] [3]
-<pictures/Recurrent_neural_network_unfold.png, id=29, 1204.5pt x 401.5pt>
+ [2]
+<pictures/Recurrent_neural_network_unfold.png, id=24, 1204.5pt x 401.5pt>
 File: pictures/Recurrent_neural_network_unfold.png Graphic file (type png)
 
 <use pictures/Recurrent_neural_network_unfold.png>
 Package pdftex.def Info: pictures/Recurrent_neural_network_unfold.png used on i
-nput line 69.
+nput line 71.
 (pdftex.def)             Requested size: 426.801pt x 142.26378pt.
 
-Overfull \hbox (81.801pt too wide) in paragraph at lines 69--70
+Overfull \hbox (81.801pt too wide) in paragraph at lines 71--72
  [][] 
  []
 
-) (./text/sito.tex [4 <./pictures/Recurrent_neural_network_unfold.png>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.77 ...includegraphics[height=8cm]{pictures/sigm_
+                                                  tanh_deriv.png}
+? 
+! Emergency stop.
+<inserted text> 
+                $
+l.77 ...includegraphics[height=8cm]{pictures/sigm_
+                                                  tanh_deriv.png}
+End of file on the terminal!
 
-LaTeX Warning: Marginpar on page 5 moved.
-
-[5]) (./text/mifid.tex [6] [7] [8] [9] [10]) [11] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 17982 strings out of 493029
- 333439 string characters out of 6136234
- 451112 words of memory out of 5000000
- 21106 multiletter control sequences out of 15000+600000
- 9369 words of font info for 34 fonts, out of 8000000 for 9000
+ 17873 strings out of 493029
+ 331137 string characters out of 6136234
+ 440003 words of memory out of 5000000
+ 21010 multiletter control sequences out of 15000+600000
+ 9023 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,76p,1937b,1116s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+ 62i,10n,56p,1937b,290s stack                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 17876 strings out of 493029
+ 331318 string characters out of 6136234
+ 440001 words of memory out of 5000000
+ 21011 multiletter control sequences out of 15000+600000
+ 9023 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,10n,56p,1937b,290s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+e1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -1084,10 +1100,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (11 pages, 221562 bytes).
+Output written on main.pdf (12 pages, 287009 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

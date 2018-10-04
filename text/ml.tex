@@ -34,6 +34,13 @@ Può essere che in certi task non sia necessario avere un output per ogni singol
 
 Nella \figurename~\ref{fig:RNN} viene mostrata la struttura della RNN come descritta sopra (a sinsitra) e come invece la RNN si vedrebbe se venisse ``srotolata temporalmente'' (a destra), ovvero vedere esplicitamente ogni step compiuto dalla RNN quando vengono presentati i diversi esempi.
 
+\begin{figure}
+    \centering
+    \includegraphics[height=4cm]{pictures/Recurrent_neural_network_unfold.png}
+    \caption{Struttura di una RNN}
+    \label{fig:RNN}
+\end{figure}
+
 Per quanto riguarda la fase di apprendimento dei valori dei pesi, essa si svolge pressappoco come accade nelle reti neurali tradizionali, ossia attraverso la Back Propagation, che nel caso delle RNN viene chiamata Back Propagation Through Time (BPTT). La principale differenza tra le due consiste nella molteplicità dei diversi vettori di pesi che si hanno nel primo caso, i quali vengono tarati scendendo lungo i livelli della rete neurale; nel secondo caso invece sono presenti tre vettori, ma essi vengono modificati basandosi sull'errore commesso negli step temporali in cui gli esempi sono stati presentati alla rete.
 
 Più formalmente, ciò che si fa è calcolare la derivata parziale dell'errore ottenuto sull'output sui pesi $U$, $V$ e $W$. Non è importante come tale errore venga definito, purché ovviamente sia sensato (ad esempio l'MSE per la regressione o l'accuracy per la classificazione). L'errore compiuto dalla RNN è la somma degli errori compiuti nei singoli step.
@@ -62,11 +69,26 @@ Si noti anche che per il calcolo di $\frac{\partial o_t}{\partial W}$ è relativ
 \end{align*}
 La versione con $U$ è simile a quella riportata sopra.
 
+Dall'ultima equazione si possono osservare due problemi, entrambi legati al livello nascosto. Infatti per il calcolo del gradiente vengono sfruttati tutti i valori $h_t$ generati da $t=0$ fino al $t$ corrente. Non è quindi difficile intuire che per sequenze molto lunghe questo approccio risulti essere computazionalmente oneroso.
 
+Un secondo problema, forse meno intuitivo, è la sensibilità delle RNN al gradient vanishing. A causa della natura delle funzioni di attivazione sfruttate solitamente ($tanh$ o sigmoide), il calcolo della derivata restituisce dei valori compresi tra 0 e 1, nel caso della $tanh$ e tra 0 e 0,25 nel caso della sigmoide (v. \figurename~\ref{fig:sigm_tanh}) e, a causa dei molti prodotti tra le derivate causati dalla regola della catena, i valori che andranno atti ad aggiornare i pesi saranno sempre più piccoli in valore assoluto, fino a rendere praticamente inesistente l'apprendimento una volta superati un certo numero di step temporali.
 
 \begin{figure}
     \centering
-    \includegraphics[height=5cm]{pictures/Recurrent_neural_network_unfold.png}
-    \caption{Struttura di una RNN}
-    \label{fig:RNN}
+    \includegraphics[height=7cm]{pictures/sigm_tanh_deriv.png}
+    \caption{Sigmoide, tanh e rispettive derivate}
+    \label{fig:sigm_tanh}
 \end{figure}
+
+Una soluzione tipica per ovviare al problema del gradient vanishing è quella di usare una diversa funzione di attivazione, generalmente la ReLU o sue varianti.
+
+\begin{equation*}
+    ReLU(x) = max(0,x)
+\end{equation*}
+Essa si caratterizza per essere lineare per valori superiori allo 0.
+
+Ciò che comunque spesso si fa nelle RNN è anche troncare la BPTT a pochi istanti temporali prima di quello attuale, in modo da non rendere troppo lunghi i tempi di computazione e di ridurre l'effetto del gradient vanishing. Purtroppo questa soluzione impedisce alla RNN di cogliere dipendenze tra elementi della sequenza distanti tra loro, il che le rende effettivamente utilizzabili solo in casi semplici.
+
+Allo stato dell'arte viene usata una versione più complessa della RNN esposta finora, detta LSTM. Nel progetto svolto per questa tesi, è stata sfruttata una LSTM.
+
+\subsubsection{LSTM}
